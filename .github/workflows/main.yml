@@ -21,5 +21,6 @@ jobs:
       - name: 'print folder contact before'
         run: ls
       - uses: actions/checkout@v3
-         - name: 'print folder contact after'
+      
+      - name: 'print folder contact after'
         run: ls
