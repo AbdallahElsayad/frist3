@@ -1,1 +1,20 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+
+    step:
+      - name: 'Testing Github'
+        run: pwd
+
+      - name: 'Testing Printing'
+        run: echo Abdallah
 
