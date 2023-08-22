@@ -18,8 +18,8 @@ jobs:
       - name: 'Testing Printing'
         run: echo Abdallah
 
-      - name: 'print folder contact'
+      - name: 'print folder contact before'
         run: ls
       - uses: actions/checkout@v3
-
-
+         - name: 'print folder contact after'
+        run: ls
