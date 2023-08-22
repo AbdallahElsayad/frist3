@@ -20,5 +20,6 @@ jobs:
 
       - name: 'print folder contact'
         run: ls
+      - uses: actions/checkout@v3
 
 
