@@ -25,4 +25,4 @@ jobs:
       - name: 'print folder contact after'
         run: ls
       - name: "login"
-        run: docker login --username ${{ screts.DOCKER_PASSWORD}} --password ${{ secrets.DOCKER_USERNAME}}
+        run: docker login --username ${{ secrets.DOCKER_PASSWORD}} --password ${{ secrets.DOCKER_USERNAME}}
