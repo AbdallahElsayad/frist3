@@ -11,7 +11,7 @@ jobs:
   build:
     run-on: ubuntu-latest
 
-    step:
+    steps:
       - name: 'Testing Github'
         run: pwd
 
