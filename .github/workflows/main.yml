@@ -18,3 +18,7 @@ jobs:
       - name: 'Testing Printing'
         run: echo Abdallah
 
+      - name: 'print folder contact'
+        run: ls
+
+
