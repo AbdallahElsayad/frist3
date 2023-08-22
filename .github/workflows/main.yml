@@ -21,6 +21,8 @@ jobs:
       - name: 'print folder contact before'
         run: ls
       - uses: actions/checkout@v3
-      
+
       - name: 'print folder contact after'
         run: ls
+      - name: "login"
+        run: docker login --username abdallah121 --password dckr_pat__-f0qhas83-yb5vmz_bE_nmY6gQ
